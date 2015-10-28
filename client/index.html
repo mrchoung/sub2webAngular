@@ -24,7 +24,7 @@
 <body>
   <div>
     <header ui-view="header"></header>
-    <div ui-view class="l-page island"></div>
+      <main ui-view></main>
     <footer ui-view="footer"></footer>
   </div>
 
@@ -37,6 +37,18 @@
   <script type="text/javascript" src="src/app/app.js"></script>
 
   <script type="text/javascript" src="src/app/home/home.js"></script>
+
+  <script type="text/javascript" src="src/app/components/app-header/directive.js"></script>
+  <script type="text/javascript" src="src/app/components/app-footer/directive.js"></script>
+  <script type="text/javascript" src="src/app/movies/root-movie.js"></script>
+  <script type="text/javascript" src="src/app/movies/directive.js"></script>
+  <script type="text/javascript" src="src/app/movies/factory.js"></script>
+  <script type="text/javascript" src="src/app/artists/root-artist.js"></script>
+  <script type="text/javascript" src="src/app/artists/directive.js"></script>
+  <script type="text/javascript" src="src/app/artists/factory.js"></script>
+
+
+
 
   <script type="text/javascript" src="src/common/interceptors/httpInterceptor.js"></script>
   <script type="text/javascript" src="src/common/filters/uppercase.js"></script>
