@@ -45,6 +45,18 @@ main ul li .containImg img {
     z-index: 1;
 }
 
+.details {
+    margin-left: 130px;
+    background-color: white;
+    width: 1000px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+
 main ul li .containImg img:hover  {
     -moz-transform: scale(1.05) rotate(4deg);
     -webkit-transform: scale(1.05) rotate(4deg);

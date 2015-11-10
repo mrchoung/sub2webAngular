@@ -11,6 +11,20 @@
 
         service.movie = [];
 
+        service.getOneMovie = function(movieID){
+
+            var Key = '8faa249bca956ba62366d2771394a955';
+
+            return $http.get('http://api.themoviedb.org/3/movie/' + movieID,{
+                params: {
+                    api_key: Key
+                }
+            })
+                .then(function(movieData) {
+                    return movieData.data;
+                });
+        };
+
         service.getMovie = function () {
 
             var Key = '8faa249bca956ba62366d2771394a955';

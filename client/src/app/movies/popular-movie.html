@@ -4,7 +4,7 @@
         <li data-ng-repeat="movie in ::vm.movies track by $index">
             <h2>{{ movie.title }}</h2>
             <div class="containImg">
-                <img data-ng-src="http://image.tmdb.org/t/p/w500/{{ movie.backdrop_path }}">
+                <a href ui-sref="root.moviePopular.movieDetails({id: movie.id})"><img data-ng-src="http://image.tmdb.org/t/p/w500/{{ movie.backdrop_path }}"></a>
             </div>
             <article>{{ movie.overview }}</article>
         </li>
