@@ -1,0 +1,67 @@
+body {
+    background: url('http://7-themes.com/data_images/out/32/6879962-new-zealand-landscape.jpg') no-repeat center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+main h1 {
+    text-align: center;
+    color: #26A65B;
+    font-family: bushcraft;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+main ul {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1060px;
+    text-align: left;
+}
+
+main ul li {
+    background-color: #ffffff;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+main ul li .containImg  {
+    background-color: transparent;
+    margin: 0 auto;
+    transition: all .2s linear;
+}
+
+
+main ul li .containImg img {
+    transition: all .2s linear;
+    max-width: 100%;
+    z-index: 1;
+}
+
+main ul li .containImg img:hover  {
+    -moz-transform: scale(1.05) rotate(4deg);
+    -webkit-transform: scale(1.05) rotate(4deg);
+    -o-transform: scale(1.05) rotate(4deg);
+    z-index: -99;
+    -ms-transform: scale(1.05) rotate(4deg);
+    transform: scale(1.05) rotate(4deg);
+}
+
+main ul li .containImg:hover {
+    opacity: 0.6;
+    z-index:99;
+}
+
+main ul li .ng-binding {
+    margin-top: 40px;
+}
+
+
+

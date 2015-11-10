@@ -1,1 +1,14 @@
-YOOOO
+<div>
+    <h1>Popular artist</h1>
+    <ul>
+        <li data-ng-repeat="artist in ::vm.artists track by $index">
+            <h2>{{ artist.name }}</h2>
+            <div class="containImg">
+                <img data-ng-src="http://image.tmdb.org/t/p/w500/{{ artist.profile_path }}">
+            </div>
+            <article data-ng-repeat="know in artist.known_for">
+                {{ know.overview }}
+            </article>
+        </li>
+    </ul>
+</div>

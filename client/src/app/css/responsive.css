@@ -1,0 +1,132 @@
+@media screen and (min-width: 20em) {
+    main ul {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 310px;
+        text-align: left;
+    }
+
+    main ul li {
+        width: 250px;
+        margin-top: 40px;
+    }
+
+    main ul li .containImg  {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 30em) {
+    main ul {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 410px;
+        text-align: left;
+    }
+    main ul li {
+        width: 350px;
+        margin-top: 50px;
+    }
+
+    main ul li .containImg  {
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 40em) {
+    main ul {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 510px;
+        text-align: left;
+    }
+    main ul li {
+        width: 450px;
+        margin-top: 60px;
+    }
+
+    main ul li .containImg  {
+        width: 300px;
+    }
+}
+
+
+@media screen and (min-width: 50em) {
+    main ul {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 610px;
+        text-align: left;
+    }
+    main ul li {
+        width: 550px;
+        margin-top: 70px;
+    }
+
+    main ul li .containImg  {
+        width: 350px;
+    }
+}
+
+
+@media screen and (min-width: 60em) {
+    main ul {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 710px;
+        text-align: left;
+    }
+
+    main ul li {
+        width: 650px;
+        margin-top: 80px;
+    }
+
+    main ul li .containImg  {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 70em) {
+    main ul {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 910px;
+        text-align: left;
+    }
+
+    main ul li {
+        width: 850px;
+        margin-top: 90px;
+    }
+
+    main ul li .containImg  {
+        width: 450px;
+    }
+}
+
+@media screen and (min-width: 80em) {
+    main ul {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1060px;
+        text-align: left;
+    }
+
+    main ul li {
+        width: 1000px;
+        margin-top: 100px;
+    }
+
+    main ul li .containImg  {
+        width: 500px;
+    }
+}
+

@@ -1,0 +1,13 @@
+<div>
+    <h1>Popular Series</h1>
+    <ul>
+        <li data-ng-repeat="serie in ::vm.series track by $index">
+            <span data-ng-repeat="origin in serie.origin_country">{{ origin }}</span>
+            <span><h2>{{ serie.name }}</h2></span>
+            <div class="containImg">
+                <img data-ng-src="http://image.tmdb.org/t/p/w500/{{ serie.poster_path }}">
+            </div>
+            <article>{{ serie.overview }}</article>
+        </li>
+    </ul>
+</div>

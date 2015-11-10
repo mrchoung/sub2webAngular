@@ -36,6 +36,7 @@
       'appHeaderComponent',
       'home',
       'movie-popular',
+      'serie-popular',
       'artist-popular',
       'common.filters.uppercase',
       'common.interceptors.http',

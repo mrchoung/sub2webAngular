@@ -17,14 +17,18 @@
   <!-- build:css assets/css/main.css -->
   <link rel="stylesheet" type="text/css" href="src/vendor/pure/pure.css" />
   <link rel="stylesheet" type="text/css" href="src/vendor/pure/grids-responsive.css" />
-  <link rel="stylesheet" type="text/css" href="tmp/main.css" />
+  <link rel="stylesheet" type="text/css" href="src/app/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="src/app/css/responsive.css" />
+
+
+    <link rel="stylesheet" type="text/css" href="tmp/main.css" />
   <!-- endbuild -->
 </head>
 
 <body>
   <div>
     <header ui-view="header"></header>
-      <main ui-view></main>
+    <main ui-view></main>
     <footer ui-view="footer"></footer>
   </div>
 
@@ -46,6 +50,9 @@
   <script type="text/javascript" src="src/app/artists/root-artist.js"></script>
   <script type="text/javascript" src="src/app/artists/directive.js"></script>
   <script type="text/javascript" src="src/app/artists/factory.js"></script>
+  <script type="text/javascript" src="src/app/series/root-series.js"></script>
+  <script type="text/javascript" src="src/app/series/directive.js"></script>
+  <script type="text/javascript" src="src/app/series/factory.js"></script>
 
 
 

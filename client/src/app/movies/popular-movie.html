@@ -3,7 +3,9 @@
     <ul>
         <li data-ng-repeat="movie in ::vm.movies track by $index">
             <h2>{{ movie.title }}</h2>
-            <img data-ng-src="http://image.tmdb.org/t/p/w500/{{ movie.backdrop_path }}">
+            <div class="containImg">
+                <img data-ng-src="http://image.tmdb.org/t/p/w500/{{ movie.backdrop_path }}">
+            </div>
             <article>{{ movie.overview }}</article>
         </li>
     </ul>

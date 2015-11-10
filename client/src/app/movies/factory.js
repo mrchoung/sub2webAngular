@@ -31,7 +31,7 @@
         return service;
     }
 
-    angular.module('services.movie', [])
+    angular.module('services.movie', ['services.serie'])
         .factory('movieService', movieService);
 
 })();
